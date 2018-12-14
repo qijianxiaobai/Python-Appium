@@ -1,0 +1,436 @@
+testinfo:
+    - id: test003
+      title: 团购
+      info:
+testcase:
+    - element_info: com.r.ruyigou:id/btnsplashonclick
+      find_type: id
+      operate_type: click
+      info: 点击-立即体验
+
+    - element_info: com.r.ruyigou:id/id_img_scanbuy
+      find_type: id
+      operate_type: click
+      info: 点击-扫码购-入口
+
+    - element_info: com.r.ruyigou:id/etLoginPhone
+      find_type: id
+      operate_type: set_value
+      msg: "18203235226"
+      info: 输入-账号
+    - element_info: com.r.ruyigou:id/etLoginPassword
+      find_type: id
+      operate_type: set_value
+      msg: "xiahua123"
+      info: 输入-密码
+    - element_info: com.r.ruyigou:id/passwordLogin
+      find_type: id
+      operate_type: click
+      info: 点击-登陆
+
+    - element_info: com.r.ruyigou:id/id_navigation_icon
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-导航栏目-电子券
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-电子券-第一商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 1
+      operate_type: click
+      info: 点击-电子券-第二商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/id_navigation_icon
+      find_type: ids
+      index: 1
+      operate_type: click
+      info: 点击-导航栏目-超市自提
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-超市自提-第一商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 1
+      operate_type: click
+      info: 点击-超市自提-第二商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/id_navigation_icon
+      find_type: ids
+      index: 4
+      operate_type: click
+      info: 点击-导航栏目-云货架
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-云货架-第一商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 1
+      operate_type: click
+      info: 点击-云货架-第二商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/id_navigation_icon
+      find_type: ids
+      index: 6
+      operate_type: click
+      info: 点击-导航栏目-餐饮美食
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-餐饮美食-第一商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 1
+      operate_type: click
+      info: 点击-餐饮美食-第二商品
+    - element_info: com.r.ruyigou:id/ivisCollection
+      find_type: id
+      operate_type: click
+      info: 点击-收藏
+    - element_info: com.r.ruyigou:id/btAddtocart
+      find_type: id
+      operate_type: click
+      info: 点击-加入团单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-继续购物
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/id_navigation_icon
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-导航栏目-电子券
+    - element_info: com.r.ruyigou:id/ivspecilaImage
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-电子券-第一商品
+    - element_info: com.r.ruyigou:id/lelBuyingActivityshop
+      find_type: id
+      operate_type: click
+      info: 点击-团单
+    - element_info: com.r.ruyigou:id/cart_Add
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-加号
+    - element_info: com.r.ruyigou:id/cart_Minus
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-减号
+    - element_info: com.r.ruyigou:id/del_Cart
+      find_type: id
+      operate_type: click
+      info: 点击-删除
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - element_info: com.r.ruyigou:id/go_Blance
+      find_type: id
+      operate_type: click
+      info: 点击-去结算
+    - element_info: com.r.ruyigou:id/etsubmitorderphone
+      find_type: id
+      operate_type: set_value
+      msg: "18203235226"
+      info: 输入-手机号
+    - element_info: com.r.ruyigou:id/go_Blance
+      find_type: id
+      operate_type: click
+      info: 点击-去结算
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/ivpersonal
+      find_type: id
+      operate_type: click
+      info: 点击-我的
+    - element_info: com.r.ruyigou:id/layPerson_Groupdfk
+      find_type: id
+      operate_type: click
+      info: 点击-团购订单-待付款
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+check:
+    - element_info: com.r.ruyigou:id/sliding_tabs
+      find_type: ids
+      index: 0
+      check: default_check
+      info: 团购-测试完成

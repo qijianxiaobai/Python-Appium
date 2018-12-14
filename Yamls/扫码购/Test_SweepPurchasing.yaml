@@ -1,0 +1,121 @@
+testinfo:
+    - id: test002
+      title: 扫码购
+      info:
+testcase:
+    - element_info: com.r.ruyigou:id/btnsplashonclick
+      find_type: id
+      operate_type: click
+      info: 点击-立即体验
+
+    - element_info: com.r.ruyigou:id/id_img_scanbuy
+      find_type: id
+      operate_type: click
+      info: 点击-扫码购-入口
+
+    - element_info: com.r.ruyigou:id/etLoginPhone
+      find_type: id
+      operate_type: set_value
+      msg: "18203235226"
+      info: 输入-账号
+    - element_info: com.r.ruyigou:id/etLoginPassword
+      find_type: id
+      operate_type: set_value
+      msg: "xiahua123"
+      info: 输入-密码
+    - element_info: com.r.ruyigou:id/passwordLogin
+      find_type: id
+      operate_type: click
+      info: 点击-登陆
+
+    - element_info: com.r.ruyigou:id/id_img_scanbuy
+      find_type: id
+      operate_type: click
+      info: 点击-扫码购-入口
+
+    - element_info: com.r.ruyigou:id/id_text_nearshop
+      find_type: id
+      operate_type: click
+      info: 点击-门店切换-按钮
+    - element_info: com.r.ruyigou:id/id_lay_addlay
+      find_type: id
+      operate_type: click
+      info: 点击-门店切换-列表
+    - element_info: com.r.ruyigou:id/id_img_scan
+      find_type: id
+      operate_type: click
+      info: 点击-扫一扫-入口
+      is_time: 2
+    - element_info: com.r.ruyigou:id/option
+      find_type: id
+      operate_type: click
+      info: 点击-手动输入-入口
+
+    - element_info: com.r.ruyigou:id/id_edit_code
+      find_type: id
+      operate_type: set_value
+      msg: "6922868285266"
+      info: 输入-商品条码
+      is_time: 5
+    - element_info: com.r.ruyigou:id/id_button_gosure
+      find_type: id
+      operate_type: click
+      info: 点击-确认-按钮
+    - element_info: com.r.ruyigou:id/id_text_cancel
+      find_type: id
+      operate_type: click
+      info: 点击-取消-按钮
+    - element_info: com.r.ruyigou:id/id_button_gosure
+      find_type: id
+      operate_type: click
+      info: 点击-确认-按钮
+    - element_info: com.r.ruyigou:id/id_imgbutton_jia
+      find_type: id
+      operate_type: click
+      info: 点击-商品增加-按钮
+    - element_info: com.r.ruyigou:id/id_imgbutton_jia
+      find_type: id
+      operate_type: click
+      info: 点击-商品增加-按钮
+    - element_info: com.r.ruyigou:id/id_imgbutton_jian
+      find_type: id
+      operate_type: click
+      info: 点击-商品减少-按钮
+    - element_info: com.r.ruyigou:id/id_text_gosure
+      find_type: id
+      operate_type: click
+      info: 点击-加入购物车-按钮
+      is_time: 3
+    - element_info: com.r.ruyigou:id/option
+      find_type: id
+      operate_type: click
+      info: 点击-手动输入-入口
+    - element_info: com.r.ruyigou:id/id_img_shopcart
+      find_type: id
+      operate_type: click
+      info: 点击-购物车-入口
+    - element_info: com.r.ruyigou:id/id_text_gobuy
+      find_type: id
+      operate_type: click
+      info: 点击-去结算-入口
+
+    - element_info: com.r.ruyigou:id/id_text_goorder
+      find_type: id
+      operate_type: click
+      info: 点击-提交订单-按钮
+      is_time: 3
+
+    - operate_type: back
+      info: 返回
+      is_time: 3
+
+    - element_info: com.r.ruyigou:id/share
+      find_type: id
+      operate_type: click
+      info: 点击-订单列表-入口
+
+check:
+    - element_info: com.r.ruyigou:id/title
+      find_type: id
+      check: default_check
+      info: 扫码购-测试完成

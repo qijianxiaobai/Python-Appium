@@ -1,0 +1,48 @@
+testinfo:
+    - id: test001
+      title: 登陆页
+      info: 进入-登陆页
+testcase:
+    - element_info: com.r.ruyigou:id/btnsplashonclick
+      find_type: id
+      operate_type: click
+      info: 点击-立即体验
+    - element_info: com.r.ruyigou:id/ivshopnor
+      find_type: id
+      operate_type: click
+      info: 点击-发现
+    - element_info: com.r.ruyigou:id/ivshoppingcart
+      find_type: id
+      operate_type: click
+      info: 点击-购物车
+    - element_info: com.r.ruyigou:id/ivpersonal
+      find_type: id
+      operate_type: click
+      info: 点击-我的
+    - element_info: com.r.ruyigou:id/headerImg
+      find_type: id
+      operate_type: click
+      info: 点击-头像
+    - element_info: com.r.ruyigou:id/etLoginPhone
+      find_type: id
+      operate_type: set_value
+      msg: "18203235226"
+      info: 输入-账号
+    - element_info: com.r.ruyigou:id/etLoginPassword
+      find_type: id
+      operate_type: set_value
+      msg: "xiahua123"
+      info: 输入-密码
+      is_time: 5
+    - element_info: com.r.ruyigou:id/passwordLogin
+      find_type: id
+      operate_type: click
+      info: 点击-登陆
+      is_time: 5
+check:
+    - element_info: com.r.ruyigou:id/headerImg
+      find_type: id
+      check: default_check
+      info: 登陆成功
+
+
