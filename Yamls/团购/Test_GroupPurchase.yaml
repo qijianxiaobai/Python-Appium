@@ -257,16 +257,19 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-去结算
+      is_time: 1
     - operate_type: back
       info: 返回
+      is_time: 1
     - operate_type: back
       info: 返回
+      is_time: 1
     - operate_type: back
       info: 返回
+      is_time: 1
     - operate_type: back
       info: 返回
-    - operate_type: back
-      info: 返回
+      is_time: 1
     - element_info: com.r.ruyigou:id/ivpersonal
       find_type: id
       operate_type: click
@@ -284,6 +287,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-去支付
+      is_time: 2
     - operate_type: back
       info: 返回
     - element_info: com.r.ruyigou:id/cancle
@@ -308,6 +312,7 @@ testcase:
       info: 点击-去支付
     - operate_type: back
       info: 返回
+      is_time: 2
     - element_info: com.r.ruyigou:id/cancle
       find_type: id
       operate_type: click
@@ -328,50 +333,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-去支付
-    - operate_type: back
-      info: 返回
-    - element_info: com.r.ruyigou:id/cancle
-      find_type: id
-      operate_type: click
-      info: 点击-取消订单
-    - element_info: com.r.ruyigou:id/negativeButton
-      find_type: id
-      operate_type: click
-      info: 点击-确认
-    - operate_type: back
-      info: 返回
-
-    - element_info: com.r.ruyigou:id/lay
-      find_type: ids
-      index: 0
-      operate_type: click
-      info: 点击-待付款-订单列表单元-第一商品
-    - element_info: com.r.ruyigou:id/goPay
-      find_type: id
-      operate_type: click
-      info: 点击-去支付
-    - operate_type: back
-      info: 返回
-    - element_info: com.r.ruyigou:id/cancle
-      find_type: id
-      operate_type: click
-      info: 点击-取消订单
-    - element_info: com.r.ruyigou:id/negativeButton
-      find_type: id
-      operate_type: click
-      info: 点击-确认
-    - operate_type: back
-      info: 返回
-
-    - element_info: com.r.ruyigou:id/lay
-      find_type: ids
-      index: 0
-      operate_type: click
-      info: 点击-待付款-订单列表单元-第一商品
-    - element_info: com.r.ruyigou:id/goPay
-      find_type: id
-      operate_type: click
-      info: 点击-去支付
+      is_time: 2
     - operate_type: back
       info: 返回
     - element_info: com.r.ruyigou:id/cancle
@@ -394,6 +356,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-去支付
+      is_time: 2
     - operate_type: back
       info: 返回
     - element_info: com.r.ruyigou:id/cancle
@@ -416,6 +379,53 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-去支付
+      is_time: 2
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+      is_time: 2
+    - operate_type: back
+      info: 返回
+    - element_info: com.r.ruyigou:id/cancle
+      find_type: id
+      operate_type: click
+      info: 点击-取消订单
+    - element_info: com.r.ruyigou:id/negativeButton
+      find_type: id
+      operate_type: click
+      info: 点击-确认
+    - operate_type: back
+      info: 返回
+
+    - element_info: com.r.ruyigou:id/lay
+      find_type: ids
+      index: 0
+      operate_type: click
+      info: 点击-待付款-订单列表单元-第一商品
+    - element_info: com.r.ruyigou:id/goPay
+      find_type: id
+      operate_type: click
+      info: 点击-去支付
+      is_time: 2
     - operate_type: back
       info: 返回
     - element_info: com.r.ruyigou:id/cancle

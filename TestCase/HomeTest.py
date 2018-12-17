@@ -10,12 +10,20 @@ PATH = lambda p: os.path.abspath(
 
 class HomeTest(ParametrizedTestCase):
     def testFirstOpen(self):
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../Yamls/团购/Test_GroupPurchase.yaml"),
+        group = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../Yamls/团购/Test_GroupPurchase.yaml"),
                "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
 
-        page = FirstOpenPage(app)
-        page.operate()
-        page.checkPoint()
+        group_page = FirstOpenPage(group)
+        group_page.operate()
+        group_page.checkPoint()
+
+
+        sweep = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../Yamls/扫码购/Test_SweepPurchasing.yaml"),
+               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+
+        sweep_page = FirstOpenPage(sweep)
+        sweep_page.operate()
+        sweep_page.checkPoint()
 
     @classmethod
     def setUpClass(cls):

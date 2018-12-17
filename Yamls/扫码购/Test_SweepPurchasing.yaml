@@ -45,7 +45,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-扫一扫-入口
-      is_time: 2
+      is_time: 5
     - element_info: com.r.ruyigou:id/option
       find_type: id
       operate_type: click
@@ -85,7 +85,7 @@ testcase:
       find_type: id
       operate_type: click
       info: 点击-加入购物车-按钮
-      is_time: 3
+      is_time: 5
     - element_info: com.r.ruyigou:id/option
       find_type: id
       operate_type: click
